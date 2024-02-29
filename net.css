@@ -1,0 +1,426 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+header {
+  background-image: url(PK-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  box-shadow: 70px 86px 172px 28px black inset;
+}
+
+.logo {
+  width: 19vw;
+}
+.sign {
+  background-color: red;
+  width: 103px;
+  height: 48px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 26px;
+}
+.hide {
+  color: aliceblue;
+  text-align: center;
+}
+.get {
+  width: 161px;
+  height: 60px;
+  padding: 18px;
+  background: red;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 4px;
+}
+.mail {
+  background: transparent;
+  width: 351px;
+  height: 48px;
+  border: 1px solid grey;
+  box-shadow: 28px 51px 86px 8px black inset;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.hode {
+  font-size: 46px;
+}
+.him {
+  font-size: 21px;
+}
+.loft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.hed {
+  padding: 56px;
+  margin-top: 8rem;
+}
+.mid {
+  color: aliceblue;
+}
+.middel {
+  font-size: 46px;
+}
+.program {
+  font-size: 17px;
+}
+video {
+  position: absolute;
+  overflow: auto;
+  width: 27%;
+  right: 273px;
+  top: 792px;
+  /* right: 290px; */
+}
+
+.divide {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.image1 {
+  width: 50px;
+}
+
+.slot {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.card {
+  border: 2px solid grey;
+  width: 300px;
+  height: 81px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  left: 17%;
+  background: black;
+  top: 194%;
+}
+.linked {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.loms {
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.frequently {
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write {
+  color: aliceblue;
+}
+.spoon {
+  color: blue;
+}
+.image2 {
+  width: 539px;
+}
+.icon {
+  width: 83px;
+}
+
+.globe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 39px;
+}
+.host {
+  color: aliceblue;
+  padding: 60px;
+}
+.readytowatch {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 27px;
+  padding-top: 40px;
+}
+.luser {
+  font-size: 57px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.lack {
+  font-size: 27px;
+}
+.live {
+  color: aliceblue;
+}
+.double {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next {
+  color: aliceblue;
+  text-align: center;
+}
+.digg {
+  border: 1px solid rgb(126, 126, 26);
+  height: 62px;
+  width: 70%;
+  text-align: left;
+  background-color: #414141;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+  font-family: sans-serif;
+}
+.digg:hover {
+  background-color: #817c7c;
+}
+.dogg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-solid {
+  font-size: 30px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.button3 {
+  width: 349px;
+  height: 50px;
+  background: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.button5 {
+  width: 159px;
+  height: 54px;
+  background: red;
+  color: white;
+  font-size: large;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 30px;
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+a {
+  color: #7e7575;
+  text-align: right;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: start;
+  gap: 20px;
+}
+.loke {
+  margin: 13px;
+}
+select {
+  width: 112px;
+  height: 45px;
+  border: 1px solid grey;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.like {
+  font-size: 48px;
+}
+.style {
+  position: relative;
+  z-index: 1;
+  position: relative;
+  z-index: 1;
+  width: 500px;
+}
+.longv {
+  font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .divide {
+    display: flex;
+    flex-direction: column;
+  }
+  video {
+    width: 71%;
+    left: 14%;
+    top: 156%;
+  }
+  .globe {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    width: 60px;
+  }
+  .like {
+    font-size: 32px;
+  }
+  .longv {
+    font-size: 18px;
+  }
+  .luser {
+    font-size: 40px;
+  }
+  .lack {
+    font-size: 15px;
+  }
+  .sign {
+    width: 75px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+.card {
+  top: 266%;
+  width: 250px;
+  height: 62px;
+  left: 87px;
+}
+.hode {
+  font-size: 38px;
+}
+.loft {
+  display: flex;
+  flex-direction: column;
+}
+.host {
+  text-align: center;
+}
+.double {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.linked {
+  font-size: 20px;
+}
+.loms {
+  font-size: 31px;
+}
+.frequently {
+  font-size: 32px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.image2 {
+  width: 100%;
+}
+.style {
+  width: 100%;
+}
+.logo {
+  width: 112px;
+}
+@media only screen and (max-width: 400px) {
+  .hode {
+    font-size: 30px;
+  }
+  .him {
+    font-size: large;
+  }
+  .mail {
+    width: 100%;
+    height: 39px;
+  }
+  .get {
+    width: 120px;
+    height: 56px;
+    font-size: 14px;
+  }
+  .middel {
+    font-size: 29px;
+    text-align: center;
+  }
+  .program {
+    font-size: medium;
+    text-align: center;
+  }
+  .video {
+    top: 240%;
+  }
+  .like {
+    font-size: 26px;
+  }
+  .card {
+    top: 241%;
+    left: 61px;
+    width: 214px;
+    height: 51px;
+  }
+  .loms {
+    font-size: 26px;
+  }
+  .linked {
+    font-size: 16px;
+  }
+  .frequently {
+    font-size: 28px;
+  }
+  .readytowatch {
+    font-size: 21px;
+  }
+  .button3 {
+    width: 250px;
+    height: 48px;
+  }
+  video {
+    top: 145%;
+  }
+  .button5 {
+    width: 133px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
